@@ -1,0 +1,75 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.seccion_texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  max-width: 80rem;
+  height: 100%;
+  background-color: var(--ColorOscuro);
+  border-radius: 2rem;
+
+  margin: 2rem 0;
+}
+
+.seccion_texto .Titulo {
+  background-color: var(--Transparent);
+  font-size: 3rem;
+  color: var(--ColorClaro);
+  font-family: 'futura';
+
+  margin: 6rem 0;
+}
+
+.seccion_texto .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seccion_texto .button ion-icon {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  margin: 2rem;
+}
+
+.container .tarjet {
+  list-style-position: inside;
+  background-color: var(--HoverTrasparent);
+  border: 1px solid var(--ColorAzulOscuro);
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.container .tarjet:hover {
+  cursor: pointer;
+}
+
+.container .tarjet li {
+  color: var(--light_text_color);
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.container .tarjet li span {
+  color: var(--ColorClaro);
+  margin-right: 1rem;
+}

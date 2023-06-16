@@ -1,0 +1,32 @@
+:root {
+  /* Paleta de colores */
+
+  --Transparent: rgba(0, 0, 0, 0);
+  --HoverTrasparent: #121d2679;
+  --Gradiente: linear-gradient(270deg, #01b0c5 1.14%, #02668c 78.61%, #025075 105.16%);
+
+  --ColorClaro: #f2f2f2;
+  --ColorOscuro: #121212;
+
+  --ColorGrisClaro: #bfbfbf;
+  --ColorGris: #a6a6a6;
+  --ColorGrisOscuro: #404040;
+
+  --ColorAzul: #2c4859;
+  --ColorAzulClaro: #499ebf;
+  --ColorAzulOscuro: #121d26;
+
+  --main_color: #1083d6;
+  --title_color: #2a3b47;
+  --text_color: #697477;
+  --light_text_color: #a0a7ac;
+  --body_color: #fbfbfe;
+
+  --FondoGradiente: radial-gradient(
+      85.12% 86.58% at 13.46% 56.45%,
+      rgba(1, 115, 197, 0.13) 0%,
+      rgba(1, 115, 197, 0) 100%
+    ),
+    radial-gradient(40.57% 61.61% at 100% 100%, rgba(1, 176, 197, 0.3) 0%, rgba(18, 18, 18, 0.18) 79.83%),
+    radial-gradient(50.65% 16.79% at 50.65% 0%, #022957 0%, #121212 83.18%);
+}
