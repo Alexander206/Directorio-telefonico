@@ -36,7 +36,7 @@ body {
 
   background: var(--ColorOscuro);
   background: linear-gradient(to top, var(--HoverTrasparent), var(--ColorOscuro)),
-    url('../../assets/img/background.jpg');
+    url('../assets/img/background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
